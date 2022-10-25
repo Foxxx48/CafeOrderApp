@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CafeOrderApp</string>
+    <string name="logo">Логотип</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="hint_name">Введите имя</string>
+    <string name="hint_password">Введите пароль</string>
+    <string name="btn_create_order">Создать заказ</string>
+    <string name="Toast_data">Заполните все поля</string>
+</resources>

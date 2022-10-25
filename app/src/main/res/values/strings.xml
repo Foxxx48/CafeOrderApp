@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">CafeOrderApp</string>
+    <string name="app_name" translatable="false">CafeOrderApp</string>
     <string name="logo">Logo</string>
     <string name="welcome">Welcome!</string>
     <string name="hint_name">Enter your name</string>
     <string name="hint_password">Enter password</string>
     <string name="btn_create_order">Create order</string>
+    <string name="Toast_data">Please enter data</string>
 </resources>
