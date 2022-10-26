@@ -22,9 +22,7 @@
         android:layout_margin="8dp"
         android:text="@string/welcome"
         android:textAlignment="center"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:textColor="@color/white"/>
+        style="@style/MyTextStyleWhite" />
 
     <EditText
         android:id="@+id/et_name"

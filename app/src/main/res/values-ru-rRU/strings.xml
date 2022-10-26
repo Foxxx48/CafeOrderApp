@@ -7,4 +7,10 @@
     <string name="hint_password">Введите пароль</string>
     <string name="btn_create_order">Создать заказ</string>
     <string name="Toast_data">Заполните все поля</string>
+    <string name="description_button_for_order">Кнопка заказа</string>
+    <string name="radio_btn_1">Чай</string>
+    <string name="radio_btn2">Кофе</string>
+    <string name="check_box_sugar">Сахар</string>
+    <string name="check_box_milk">Молоко</string>
+    <string name="checkbox_lemon">Лемон</string>
 </resources>
