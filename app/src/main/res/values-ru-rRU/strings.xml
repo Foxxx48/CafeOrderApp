@@ -8,9 +8,24 @@
     <string name="btn_create_order">Создать заказ</string>
     <string name="Toast_data">Заполните все поля</string>
     <string name="description_button_for_order">Кнопка заказа</string>
-    <string name="radio_btn_1">Чай</string>
-    <string name="radio_btn2">Кофе</string>
+    <string name="tea">Чай</string>
+    <string name="coffee">Кофе</string>
     <string name="check_box_sugar">Сахар</string>
     <string name="check_box_milk">Молоко</string>
     <string name="checkbox_lemon">Лемон</string>
+    <string name="btn_text_order">Заказать</string>
+    <string name="choose_your_drink">Выберите Ваш напиток</string>
+    <string name="additions">Что добавить в Ваш %s?</string>
+    <string name="default_name">Клиент</string>
+    <string name="default_password">Пароль</string>
+    <string name="hello_client">Привет %s! Что будете заказывать?</string>
+    <string name="americano">Американо</string>
+    <string name="espresso">Эспрессо</string>
+    <string name="cappuccino">Капучино</string>
+    <string name="latte">Латте</string>
+    <string name="macchiato">Моккачино</string>
+    <string name="flat_white">Флэт Уайт</string>
+    <string name="turkish_coffee">Кофе по-турецки</string>
+    <string name="italian_coffee">Кофе по-итальянски</string>
+    <string name="irish_coffee">Кофе по-ирландски</string>
 </resources>

@@ -4,29 +4,44 @@
     <string name="welcome">Welcome!</string>
     <string name="hint_name">Enter your name</string>
     <string name="hint_password">Enter password</string>
+    <string name="default_name">Client</string>
+    <string name="default_password">password</string>
     <string name="btn_create_order">Create order</string>
     <string name="Toast_data">Please enter data</string>
     <string name="description_button_for_order">Button for order</string>
-    <string name="radio_btn_1">Tea</string>
-    <string name="radio_btn2">Coffee</string>
+    <string name="tea">Tea</string>
+    <string name="coffee">Coffee</string>
     <string name="check_box_sugar">Sugar</string>
     <string name="check_box_milk">Milk</string>
     <string name="checkbox_lemon">Lemon</string>
     <string name="btn_text_order">Order</string>
-    <string name="choose_your_drink">Сhoose your drink</string>
-    <string name="additions">What to add to your coffee?</string>
-    <string name="hello_client">Hello, client! What do you want?</string>
+    <string name="choose_your_drink">Choose your drink</string>
+    <string name="additions">What to add to your %s?</string>
+    <string name="hello_client">Hello, %s! What do you want to order?</string>
+
+<!--    Strings for array coffee options-->
+    <string name="americano">Americano</string>
+    <string name="espresso">Espresso</string>
+    <string name="cappuccino">Cappuccino</string>
+    <string name="latte">Latte</string>
+    <string name="macchiato">Macchiato</string>
+    <string name="flat_white">Flat White</string>
+    <string name="irish_coffee">Irish Coffee</string>
+    <string name="turkish_coffee">Turkish Coffee</string>
+    <string name="italian_coffee">Italian Coffee</string>
+
+
 
     <string-array name="options_of_coffee">
-        <item>Americano</item>
-        <item>Espresso</item>
-        <item>Cappuccino</item>
-        <item>Latte</item>
-        <item>Macchiato</item>
-        <item>Flat White</item>
-        <item>Irish Coffee</item>
-        <item>Turkish Coffee</item>
-        <item>Italian Coffee</item>
+        <item>@string/americano</item>
+        <item>@string/espresso</item>
+        <item>@string/cappuccino</item>
+        <item>@string/latte</item>
+        <item>@string/macchiato</item>
+        <item>@string/flat_white</item>
+        <item>@string/irish_coffee</item>
+        <item>@string/turkish_coffee</item>
+        <item>@string/italian_coffee</item>
     </string-array>
 
     <string-array name="options_of_tea">
