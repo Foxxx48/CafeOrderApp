@@ -22,8 +22,15 @@ class OrderDetailActivity : AppCompatActivity() {
 
         val arguments = intent.extras
         val order = arguments?.getParcelable<Order>(EXTRA_PARCEL)
+        order?.let {
+            binding.tvName.text = it.name
+            binding.tvPassword.text = it.password
+            binding.tvDrink.text = it.drink
+            binding.tvDetailAdditions.text = it.additions
+            binding.tvTypeOfDrink.text = it.optionOfDrink
+        }
 
-        binding.tvOrder.text = order.toString()
+
 
         order?.apply {
             name.format(Locale.getDefault())
