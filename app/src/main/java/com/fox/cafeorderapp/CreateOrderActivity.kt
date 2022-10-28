@@ -62,7 +62,6 @@ class CreateOrderActivity : AppCompatActivity() {
             checkedAdditions()
             getOptionOfDrink()
             val order = Order(
-                1,
                 name = name,
                 password = password,
                 drink = drink,
@@ -73,8 +72,6 @@ class CreateOrderActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
-
-
     }
 
     private fun parseIntent() {
@@ -97,7 +94,6 @@ class CreateOrderActivity : AppCompatActivity() {
 
     private fun checkedAdditions() {
         builderAdditions.setLength(0)
-
         if (binding.checkBoxSugar.isChecked) {
             builderAdditions.append(getString(R.string.check_box_sugar)).append(" ")
         }
