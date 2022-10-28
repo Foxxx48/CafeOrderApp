@@ -20,9 +20,12 @@ class OrderDetailActivity : AppCompatActivity() {
         _binding = ActivityOrderDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        myLog(Locale.getDefault().language)
+
         val arguments = intent.extras
         val order = arguments?.getParcelable<Order>(EXTRA_PARCEL)
         order?.let {
+            binding.tvOrderId.text = it.orderId.toString()
             binding.tvName.text = it.name
             binding.tvPassword.text = it.password
             binding.tvDrink.text = it.drink

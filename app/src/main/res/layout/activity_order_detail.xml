@@ -41,6 +41,47 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewOrder"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/detail_order"
+                    android:textAlignment="center"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/order_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewOrderId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.35"
+                    android:text="@string/detail_order_id"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_order_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:text="Order id"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -52,7 +93,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
-                    android:text="Name: "
+                    android:text="@string/detail_client_name"
                     android:textSize="20sp" />
 
                 <TextView
@@ -60,7 +101,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Name of Client"
+                    tools:text="Name of Client"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -75,8 +116,8 @@
                     android:id="@+id/textViewPassword"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.8"
-                    android:text="Password: "
+                    android:layout_weight="0.5"
+                    android:text="@string/detail_client_password"
                     android:textSize="20sp" />
 
                 <TextView
@@ -84,7 +125,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Password of Client"
+                    tools:text="Password of Client"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -100,7 +141,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.8"
-                    android:text="Drink: "
+                    android:text="@string/detail_drink"
                     android:textSize="20sp" />
 
                 <TextView
@@ -108,7 +149,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Drink of Client"
+                    tools:text="Drink of Client"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -123,8 +164,8 @@
                     android:id="@+id/textViewAdditions"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
-                    android:text="Additions: "
+                    android:layout_weight="0.35"
+                    android:text="@string/detail_additions"
                     android:textSize="20sp" />
 
                 <TextView
@@ -132,7 +173,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Additions "
+                    tools:text="Additions "
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -147,8 +188,8 @@
                     android:id="@+id/textViewOptions"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.4"
-                    android:text="Type of Drink:"
+                    android:layout_weight="0.2"
+                    android:text="@string/detail_type_of_drink"
                     android:textSize="20sp" />
 
                 <TextView
@@ -156,7 +197,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Tipe of drink"
+                    tools:text="Type of drink"
                     android:textSize="20sp" />
             </LinearLayout>
         </LinearLayout>

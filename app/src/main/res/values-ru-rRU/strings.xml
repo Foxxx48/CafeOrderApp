@@ -28,4 +28,20 @@
     <string name="turkish_coffee">Кофе по-турецки</string>
     <string name="italian_coffee">Кофе по-итальянски</string>
     <string name="irish_coffee">Кофе по-ирландски</string>
+    <string name="black_tea">Чёрный чай</string>
+    <string name="green_tea">Зелёный чай</string>
+    <string name="oolong_tea">Улун</string>
+    <string name="pu_erh_tea">Пуэр</string>
+    <string name="white_tea">Белый чай</string>
+    <string name="chamomile_tea">Ромашковый чай</string>
+    <string name="matcha_tea">Матча</string>
+    <string name="peppermint_tea">Мятный чай</string>
+    <string name="rooibos_tea">Ройбуш</string>
+    <string name="detail_client_password">"Пароль: "</string>
+    <string name="detail_drink">"Напиток: "</string>
+    <string name="detail_additions">"Добавки: "</string>
+    <string name="detail_type_of_drink">"Тип напитка: "</string>
+    <string name="detail_client_name">"Имя: "</string>
+    <string name="detail_order_id">"Номер заказа: "</string>
+    <string name="detail_order">Заказ</string>
 </resources>

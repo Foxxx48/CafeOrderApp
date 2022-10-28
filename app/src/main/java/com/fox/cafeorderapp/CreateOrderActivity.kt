@@ -17,7 +17,7 @@ class CreateOrderActivity : AppCompatActivity() {
     private lateinit var password: String
     private lateinit var drink: String
     private lateinit var additions: String
-    private  var builderAdditions = StringBuilder()
+    private var builderAdditions = StringBuilder()
     private lateinit var optionsOfDrink: String
 
 
@@ -61,9 +61,17 @@ class CreateOrderActivity : AppCompatActivity() {
             myLog("imageButtonChocolate click")
             checkedAdditions()
             getOptionOfDrink()
-            val order = Order(name, password, drink, builderAdditions, optionsOfDrink)
+            val order = Order(
+                1,
+                name = name,
+                password = password,
+                drink = drink,
+                additions = builderAdditions,
+                optionOfDrink = optionsOfDrink
+            )
             val intent = OrderDetailActivity.newIntent(this, order)
             startActivity(intent)
+
         }
 
 

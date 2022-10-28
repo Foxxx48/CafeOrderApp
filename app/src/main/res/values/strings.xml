@@ -19,7 +19,7 @@
     <string name="additions">What to add to your %s?</string>
     <string name="hello_client">Hello, %s! What do you want to order?</string>
 
-<!--    Strings for array coffee options-->
+<!--Strings for array coffee options-->
     <string name="americano">Americano</string>
     <string name="espresso">Espresso</string>
     <string name="cappuccino">Cappuccino</string>
@@ -44,15 +44,34 @@
         <item>@string/italian_coffee</item>
     </string-array>
 
+<!--Strings for array tea-->
+    <string name="black_tea">Black tea</string>
+    <string name="green_tea">Green tea</string>
+    <string name="oolong_tea">Oolong tea</string>
+    <string name="pu_erh_tea">Pu-erh tea</string>
+    <string name="white_tea">White tea</string>
+    <string name="chamomile_tea">Chamomile Tea</string>
+    <string name="matcha_tea">Matcha Tea</string>
+    <string name="peppermint_tea">Peppermint Tea</string>
+    <string name="rooibos_tea">Rooibos Tea</string>
+    <string name="detail_client_name">Name: </string>
+    <string name="detail_client_password">Password: </string>
+    <string name="detail_drink">Drink: </string>
+    <string name="detail_additions">Additions: </string>
+    <string name="detail_type_of_drink">Type of Drink: </string>
+    <string name="detail_order_id">Order id:</string>
+    <string name="detail_order">Order</string>
+
+
     <string-array name="options_of_tea">
-        <item>Black tea</item>
-        <item>Green tea</item>
-        <item>Oolong tea</item>
-        <item>Pu-erh tea</item>
-        <item>White tea</item>
-        <item>Chamomile Tea</item>
-        <item>Matcha Tea</item>
-        <item>Peppermint Tea</item>
-        <item>Rooibos Tea</item>
+        <item>@string/black_tea</item>
+        <item>@string/green_tea</item>
+        <item>@string/oolong_tea</item>
+        <item>@string/pu_erh_tea</item>
+        <item>@string/white_tea</item>
+        <item>@string/chamomile_tea</item>
+        <item>@string/matcha_tea</item>
+        <item>@string/peppermint_tea</item>
+        <item>@string/rooibos_tea</item>
     </string-array>
 </resources>
