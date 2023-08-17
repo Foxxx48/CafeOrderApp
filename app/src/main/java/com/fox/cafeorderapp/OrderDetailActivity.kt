@@ -2,13 +2,11 @@ package com.fox.cafeorderapp
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.fox.cafeorderapp.databinding.ActivityCreateOrderBinding
+import androidx.appcompat.app.AppCompatActivity
 import com.fox.cafeorderapp.databinding.ActivityOrderDetailBinding
-import kotlinx.parcelize.Parcelize
-import java.util.*
+import java.util.Locale
 
 class OrderDetailActivity : AppCompatActivity() {
     private var _binding: ActivityOrderDetailBinding? = null
@@ -31,6 +29,7 @@ class OrderDetailActivity : AppCompatActivity() {
             binding.tvDrink.text = it.drink
             binding.tvDetailAdditions.text = it.additions
             binding.tvTypeOfDrink.text = it.optionOfDrink
+
         }
 
 

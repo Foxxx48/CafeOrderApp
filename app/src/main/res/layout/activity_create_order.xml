@@ -59,6 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:padding="8dp"
         android:text="@string/hello_client"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,6 +79,7 @@
             android:id="@+id/radio_btn_tea"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColorLink="@color/black"
             android:checked="true"
             android:text="@string/tea" />
 

@@ -3,11 +3,12 @@ package com.fox.cafeorderapp
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 import java.util.Locale
+import kotlin.random.Random
 
 
 @Parcelize
- data class Order @JvmOverloads constructor(
-    val orderId: Int = Int.MIN_VALUE,
+data class Order @JvmOverloads constructor(
+    val orderId: Int = Random.nextInt(0, 100),
     val name: String = "None",
     val password: String = "None",
     val drink: String = "None",
