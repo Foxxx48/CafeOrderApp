@@ -31,16 +31,3 @@ An application for a mini cafe where you can place an order for tea or coffee wi
 <p>
   <img alt="CafeOrderApp 8" width="400px" hight="200px"  src="https://github.com/Foxxx48/CafeOrderApp/assets/85708455/b71e7d65-c011-4976-bc93-24f3ccc53583"/>
 </p>
-
-
-
-
-![Screenshot_CafeOrderApp1]()
-
-![Screenshot_CafeOrderApp2]()
-![Screenshot_CafeOrderApp3]()
-![Screenshot_CafeOrderApp4]()
-![Screenshot_CafeOrderApp5]()
-![Screenshot_CafeOrderApp6]()
-![Screenshot_CafeOrderApp7]()
-![Screenshot_CafeOrderApp8]()
